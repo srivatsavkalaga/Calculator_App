@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/calculator.jpg'); /* Adjust the path based on your image location */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-display {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+.eval-button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:200px;
+}
+
+.eval-button:hover {
+  background-color: #45a049;
+}
+
+.output {
+  text-align: center;
+  font-size: 50px;
+  background-color:orange;
+  width:300px;
+  margin: 10px auto;
+  text-align: center;
+
+  
+}
+
+
+
+
+
+button.number{
+  background-color: gold;
+}
+button.op{
+  background-color:red ;
+  color:white;
+}
+button.reset{
+  background-color: black;
+  color: white;
+}
+
+.input-display{
+  width:300px;
+  
+}
